@@ -1,10 +1,11 @@
 import React from "react";
-import BiryaniImg from "../../assets/biryani5.png";
+import BiryaniImg from "../../assets/img.png";
 import Vector from "../../assets/vector3.png";
-import { GrSecure } from "react-icons/gr";
+// import { GrSecure } from "react-icons/gr";
+import { SiHomeassistantcommunitystore } from "react-icons/si";
 import { IoFastFood } from "react-icons/io5";
-import { GiFoodTruck } from "react-icons/gi";
-
+// import { GiFoodTruck } from "react-icons/gi";
+import { MdFoodBank } from "react-icons/md";
 
 
 const Banner = () => {
@@ -37,7 +38,7 @@ const Banner = () => {
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                  Lorem, ipsum dolor.
+                Restaurant Najjarine, history.
                 </h1>
                 <p className="text-sm text-gray-500 tracking-wide leading-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -50,22 +51,22 @@ const Banner = () => {
                   distinctio? Fugit repudiandae numquam hic quo recusandae.
                   Excepturi totam ad nam velit quasi quidem aspernatur.
                 </p>
-                <div className="flex gap-6">
+                <div className="flex gap-6 ">
                   <div>
-                    <GrSecure className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400" />
+                    <SiHomeassistantcommunitystore className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400" />
                   </div>
                   <div>
                     <IoFastFood className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-orange-100 dark:bg-orange-400" />
                   </div>
                   <div>
-                    <GiFoodTruck className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400" />
+                    <MdFoodBank className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400" />
                   </div>
                 </div>
-                <div>
+                {/* <div>
                   <button  className="bg-gradient-to-r from-blue-800 to-secondary text-white py-2 px-4 rounded-full shadow-xl hover:shadow-md">
                     About
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

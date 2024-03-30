@@ -47,21 +47,15 @@ const Hero = () => {
               className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1"
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
-                Welcome{" "}
+                Welcome to{" "}
                 <span class="bg-clip-text text-transparent bg-gradient-to-b from-blue-800 to-secondary">
                 Restaurant
                 </span>{" "}
                 Nejjarine
               </h1>
-              <p className="text-sm ">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                reiciendis inventore iste ratione ex alias quis magni at optio
+              <p className="text-md ">
+              where culinary excellence meets traditional flavors. Nestled in the heart of Nejjarine,Medina Fez our restaurant offers an unforgettable dining experience that celebrates the rich heritage and vibrant cuisine .
               </p>
-              <div>
-                <button className="bg-gradient-to-r from-blue-800 to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
-                  Menu
-                </button>
-              </div>
             </div>
             {/* Image section */}
             <div className="min-h-[450px] sm:min-h-[450px] flex justify-center items-center relative order-1 sm:order-2 ">
@@ -72,7 +66,7 @@ const Hero = () => {
                   data-aos-once="true"
                   src={imageId}
                   alt="biryani img"
-                  className="w-[300px] sm:w-[450px] sm:scale-125  mx-auto spin "
+                  className="w-[300px] sm:w-[450px] sm:scale-125  mx-auto  "
                 />
               </div>
               <div className="flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full">

@@ -5,19 +5,19 @@ const testimonialData = [
   {
     id: 1,
     name: "Samuel",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "Very pleasant setting, friendly staff, reasonable prices for refined Moroccan dishes. An ideal break during a visit to the medina",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 1,
     name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "it is a Riad with traditional decoration. Several menus are offered, at very affordable prices. Everything was excellent.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 1,
-    name: "Smith",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Smoith",
+    text: "A place to recommend for its setting, its traditional cuisine at a fair price and the efficiency of the service",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -46,8 +46,7 @@ const Testimonial = () => {
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+            Some comments from those who visited our restaurant.
             </p>
           </div>
           <div
